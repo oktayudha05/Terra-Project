@@ -2,12 +2,10 @@ import Link from 'next/link';
 
 export default function Navbar() {
     return (
-        <nav>
-            <div className='flex item-center justify-center py-1'>
-                <div className="flex-row-reverse space-x-1">
-                    <Link href="/" className='hover:text-emerald-950 hover:bg-emerald-200 rounded px-2 py-1 text-emerald-100'>Home</Link>
-                    <Link href="/about" className='hover:text-emerald-950  hover:bg-emerald-200 rounded px-2 py-1 text-emerald-100'>About</Link>
-                </div>
+        <nav className='fixed flex items-center justify-center py-1 top-0 left-0 right-0 z-50'>
+            <div className="flex space-x-3 backdrop-blur-sm overflow-hidden shadow-lg bg-black/35 rounded-2xl py-1 px-3">
+                <Link href="/" className='focus:font-extrabold font-normal py-1 text-emerald-100'>Home</Link>
+                <Link href="/about" className='focus:font-extrabold font-normal py-1 text-emerald-100'>About</Link>
             </div>
         </nav>
     );
