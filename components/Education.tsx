@@ -1,21 +1,23 @@
-"use client"
-import { useRouter } from "next/router"
-import { useEffect, useState } from "react"
+"use client";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 export default function Education() {
-  const router = useRouter()
-  const [isClient, setIsClient] = useState(false)
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true)
-  }, [])
+    setIsClient(true);
+  }, []);
 
   const handleClick = (card: any) => {
-    router.push({
-      pathname: '/detailstep',
-      query: { card: card }
-    })
-  }
+    if (isClient) {
+      const router = useRouter();
+      router.push({
+        pathname: '/detailstep',
+        query: { card: card }
+      });
+    }
+  };
 
   return (
     <>
@@ -24,7 +26,7 @@ export default function Education() {
           <h2 className="text-3xl font-bold text-center mb-8">How to Recycle</h2>
           <div className="grid px-4 md:grid-cols-3 gap-8">
 
-            <div onClick={() => handleClick('step1')} className="cursor-pointer backdrop-blur-md overflow-hidden shadow-lg bg-white/20 p-6 rounded-lg transition-transform transform hover:scale-105">
+            <div className="cursor-pointer backdrop-blur-md overflow-hidden shadow-lg bg-white/20 p-6 rounded-lg transition-transform transform hover:scale-105">
               <h3 className="text-xl font-semibold mb-4">Step 1: Sorting</h3>
               <p>Learn how to properly sort your recyclables to ensure that they are processed correctly.</p>
             </div>
