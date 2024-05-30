@@ -25,17 +25,17 @@ export default function CardStep () {
 
       <div onClick={() => router.push('/detail/step4')} className="cursor-pointer backdrop-blur-md overflow-hidden shadow-lg bg-white/20 p-6 rounded-lg transition-transform transform hover:scale-105">
         <h3 className="text-xl font-semibold mb-4">{data.step4.title}</h3>
-        <p>Minimize waste by using reusable products and buying in bulk.</p>
+        <p>{data.step4.description}</p>
       </div>
 
       <div onClick={() => router.push('/detail/step5')} className="cursor-pointer backdrop-blur-md overflow-hidden shadow-lg bg-white/20 p-6 rounded-lg transition-transform transform hover:scale-105">
-        <h3 className="text-xl font-semibold mb-4">Step 5: Reusing Materials</h3>
-        <p>Find ways to repurpose items to extend their usability.</p>
+        <h3 className="text-xl font-semibold mb-4">{data.step5.title}</h3>
+        <p>{data.step5.description}</p>
       </div>
 
       <div onClick={() => router.push('/detail/step6')} className="cursor-pointer backdrop-blur-md overflow-hidden shadow-lg bg-white/20 p-6 rounded-lg transition-transform transform hover:scale-105">
-        <h3 className="text-xl font-semibold mb-4">Step 6: Apakek</h3>
-        <p>Know where to take your sorted and cleaned recyclables for proper disposal.</p>
+        <h3 className="text-xl font-semibold mb-4">{data.step6.title}</h3>
+        <p>{data.step6.description}</p>
       </div>
     </>
   );

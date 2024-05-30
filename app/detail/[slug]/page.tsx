@@ -1,9 +1,15 @@
+import dataStep from "@/lib/dataStep"
+
 export default function Page({params}: any){
-  return (
-    <div className="min-h-screen">
-      <div className="py-5 mx-4 mt-16 bg-slate-400 rounded-lg shadow-xl text-center">
-      <p className="text-emerald-800 font-bold items-center text-center">{params.slug} Blm Jadi</p>
+  const data: { [key: string]: { title: string; description: string } } = dataStep();
+  if (data[params.slug]) {
+    return (
+      <div className="min-h-screen">
+        <div className="py-5 mx-4 mt-16 text-white text-center backdrop-blur-md overflow-hidden shadow-lg bg-white/20 p-6 rounded-lg">
+          <h1 className="text-xl font-semibold mb-4">{data[params.slug].title}</h1>
+          <p>{data[params.slug].description}</p>
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
 }
