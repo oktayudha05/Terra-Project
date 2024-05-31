@@ -18,13 +18,13 @@ export default function Intro() {
 
           <div className="mt-4 mb-4 sm:mb-0 sm:mt-8 flex flex-wrap justify-center sm:justify-start gap-4">
             <a
-              className="block w-auto rounded border ease-in transition-transform transform hover:scale-105 duration-200 border-blue-600 bg-blue-600 px-6 sm:px-12 py-3 text-sm font-medium text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              className="block w-auto rounded-lg border ease-in transition-transform transform hover:scale-105 duration-200 border-indigo-600 bg-indigo-600 px-6 sm:px-12 py-3 text-sm font-medium text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
               href="#"
             >
               Get Started
             </a>
             <a
-              className="block w-auto rounded border ease-in transition-transform transform hover:scale-105 duration-200 border-blue-600 px-6 sm:px-12 py-3 text-sm font-medium text-white focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+              className="block w-auto rounded-lg border ease-in transition-transform transform hover:scale-105 duration-200 border-indigo-600 px-6 sm:px-12 py-3 text-sm font-medium text-white focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
               href="#"
             >
               Learn More
