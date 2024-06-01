@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Intro() {
   return (
     <section className="text-white">
@@ -23,12 +25,11 @@ export default function Intro() {
             >
               Get Started
             </a>
-            <a
+            <Link href="/dashboard"
               className="block w-auto rounded-lg border ease-in transition-transform transform hover:scale-105 duration-200 border-indigo-600 px-6 sm:px-12 py-3 text-sm font-medium text-white focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-              href="#"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>

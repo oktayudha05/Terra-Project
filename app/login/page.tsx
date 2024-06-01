@@ -5,13 +5,10 @@ export default function Login() {
         <div className='min-h-screen flex'>
         <div className="mx-auto max-w-screen-xl">
             <div className="mx-auto max-w-lg">
-
                 <form action="#" className="space-y-4 mt-40 rounded-lg backdrop-blur-md overflow-hidden shadow-lg bg-black/20 p-6 lg:p-8">
                 <p className="text-center text-lg font-medium mb-8">Sign in to your account</p>
-
                 <div>
                     <label htmlFor="email" className="sr-only">Email</label>
-
                     <div className="relative">
                     <input
                         type="email"

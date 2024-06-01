@@ -1,9 +1,11 @@
-import Link from 'next/link';
+import CardUser from "@/components/dashboard/cardUser";
+import Stats from "@/components/dashboard/stats";
 
 export default function Dashboard() {
-    return (
-        <>
-          <h1>ini halaman Dashboard</h1>
-        </>
-    );
+  return (
+    <>
+      <CardUser/>
+      <Stats/>
+    </>
+  );
 }
