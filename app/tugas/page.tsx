@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Intro from '@/components/Intro';
+import Intro from '@/components/home/Intro';
 
 export default function About() {
     return (

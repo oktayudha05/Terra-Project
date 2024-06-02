@@ -1,7 +1,7 @@
-import Intro from "@/components/Intro";
-import Carousel from "@/components/Carousel";
-import Education from "@/components/Education";
-import Cta from "@/components/cta";
+import Intro from "@/components/home/Intro";
+import Carousel from "@/components/home/Carousel";
+import Education from "@/components/home/Education";
+import Cta from "@/components/home/cta";
 import Loading from "@/app/loading";
 import { Suspense } from "react";
 
