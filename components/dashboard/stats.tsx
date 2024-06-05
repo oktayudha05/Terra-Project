@@ -13,16 +13,15 @@ export default function Stats() {
         </div>
         <div className="card backdrop-blur-md overflow-hidden bg-black/20 shadow-lg">
           <div className="card-body">
-            <h2 className="card-title text-pink-400">Pendapatan</h2>
+            <h2 className="card-title text-pink-400">Jumlah Saldo</h2>
             <p className="text-4xl text-white">21.000 IDR</p>
             <p className="text-green-400">21% kurang dari satu bulan</p>
           </div>
         </div>
         <div className="card backdrop-blur-md overflow-hidden bg-black/20 shadow-lg">
           <div className="card-body">
-            <h2 className="card-title text-gray-300">Tugas Selesai</h2>
-            <p className="text-4xl text-white">86%</p>
-            <p className="text-red-400">31 tugas tersedia</p>
+            <h2 className="card-title text-gray-300">Riwayat</h2>
+            <p className="text-4xl text-white">14 Transaksi</p>
             <div className="flex justify-end">
             </div>
           </div>

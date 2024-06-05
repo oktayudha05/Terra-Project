@@ -5,16 +5,16 @@ export default function Carousel() {
     <div className="carousel rounded relative w-full h-40 sm:h-96">
       <div className="carousel rounded">
         <div className="carousel-item">
-          <Image src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" width={1080} height={2000} layout="responsive" />
+          <Image src="/docs/images/carousel/poto1.jpg" priority alt="Burger" width={480} height={720} layout="responsive" />
         </div> 
         <div className="carousel-item">
-          <Image src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Burger" width={1920} height={1080} layout="responsive" />
+          <Image src="/docs/images/carousel/poto3.jpg" property="" alt="Burger" width={480} height={720} layout="responsive" />
         </div> 
         <div className="carousel-item">
-          <Image src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Burger" width={1920} height={1080} layout="responsive" />
+          <Image src="/docs/images/carousel/poto2.jpg" priority alt="Burger" width={480} height={720} layout="responsive" />
         </div> 
         <div className="carousel-item">
-          <Image src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" alt="Burger" width={1920} height={1080} layout="responsive" />
+          <Image src="/docs/images/carousel/poto4.jpg" priority alt="Burger" width={480} height={720} layout="responsive" />
         </div> 
         <div className="carousel-item">
           <Image src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Burger" width={1920} height={1080} layout="responsive" />

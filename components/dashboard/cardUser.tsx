@@ -1,11 +1,9 @@
 import Image from "next/image";
-import { authUserSession } from "@/lib/auth-lib";
 
 export default async function CardUser() {
-  const user = await authUserSession()
-  const image = user?.image ? user.image : "/docs/images/profil/test.jpeg"
-  const email = user?.email ? user.email : "ex@gmail.com"
-  const name = user?.name ? user.name : "Faizal Destha N."
+  const image = "/docs/images/profil/test.jpeg"
+  const email = "ex@gmail.com"
+  const name = "Faizal Destha N."
 
   return (
     <>

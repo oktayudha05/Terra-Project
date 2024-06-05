@@ -1,6 +1,5 @@
 import Intro from "@/components/home/Intro";
 import Carousel from "@/components/home/Carousel";
-import Education from "@/components/home/Education";
 import Cta from "@/components/home/cta";
 import Loading from "@/app/loading";
 import { Suspense } from "react";
@@ -22,9 +21,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="min-h-screen">
+      <div className="">
         <Suspense fallback={<Loading />}>
-          <Education />
           <Cta />
         </Suspense>
       </div>
