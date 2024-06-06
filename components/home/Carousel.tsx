@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Carousel() {
+  "use client"
   return (
     <div className="carousel rounded relative w-full h-40 sm:h-96">
       <div className="carousel rounded">
