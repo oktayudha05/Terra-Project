@@ -18,13 +18,13 @@ export default function Carousel() {
           <Image src="/docs/images/carousel/poto4.jpg" priority alt="Burger" width={480} height={720} layout="responsive" />
         </div> 
         <div className="carousel-item">
-          <Image src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Burger" width={1920} height={1080} layout="responsive" />
+          <Image src="/docs/images/carousel/poto5.jpg" priority alt="Burger" width={480} height={720} layout="responsive" />
         </div> 
         <div className="carousel-item">
-          <Image src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Burger" width={1920} height={1080} layout="responsive" />
+          <Image src="/docs/images/carousel/poto6.jpg" priority alt="Burger" width={480} height={720} layout="responsive" />
         </div> 
         <div className="carousel-item">
-          <Image src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Burger" width={1920} height={1080} layout="responsive" />
+          <Image src="/docs/images/carousel/poto7.jpg" priority alt="Burger" width={480} height={720} layout="responsive" />
         </div>
       </div>
     </div>
