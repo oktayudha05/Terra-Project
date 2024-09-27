@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Pesanan` MODIFY `saldo` INTEGER NOT NULL DEFAULT 25000;
