@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export default async function CardUser() {
-  const image = "/docs/images/profil/test.jpeg"
-  const email = "ex@gmail.com"
-  const name = "Faizal Destha N."
+  const image = "/docs/images/profil/4k.jpg"
+  const email = "faizal@gmail.com"
+  const name = "Faizal Deshta N."
 
   return (
     <>
@@ -16,7 +16,7 @@ export default async function CardUser() {
                 <Image alt="profil"
                   src={image}
                   className="object-cover w-20 h-20 mx-auto rounded-full sm:w-32 sm:h-32" 
-                  width={1080} height={720}/>
+                  width={420} height={720}/>
               </div>
             </div>
 
@@ -24,7 +24,7 @@ export default async function CardUser() {
               <div className="flex flex-col mx-auto">
                 <h1 className="text-lg font-semibold text-white sm:text-xl">{name}</h1>
                 <h2 className="flex pr-4 text-sm font-light text-white sm:text-lg">{email}</h2>
-                <p className="text-sm text-gray-500 md:text-base">Food Vloger</p>
+                <p className="text-sm text-gray-500 md:text-base">Engineer</p>
               </div>
             </div>
           </div>
